@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * ID: 300923951
  * Date July 25, 2017
  * Description: This is the GiantPlanet class
- * Version: 0.3 - Fixed the summary description
+ * Version: 0.4 - Fixed the access level for the constructor
  */
 
 namespace Assignment4_AbstractPlanet
@@ -31,7 +31,7 @@ namespace Assignment4_AbstractPlanet
         /// <param name="diameter"></param>
         /// <param name="mass"></param>
         /// <param name="type"></param>
-        GiantPlanet(string name, double diameter, double mass, string type)
+        public GiantPlanet(string name, double diameter, double mass, string type)
             :base(name, diameter, mass)
         {
             this._type = type;

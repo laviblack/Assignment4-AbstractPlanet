@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * ID: 300923951
  * Date July 25, 2017
  * Description: This is the TerrestrialPlanet class
- * Version: 0.2 - Added the summary description
+ * Version: 0.3 - Fixed the access level for the constructor
  */
 
 namespace Assignment4_AbstractPlanet
@@ -31,7 +31,7 @@ namespace Assignment4_AbstractPlanet
         /// <param name="diameter"></param>
         /// <param name="mass"></param>
         /// <param name="oxygen"></param>
-        TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
+        public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
             :base(name, diameter, mass)
         {
             this._oxygen = oxygen;
