@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 /*
  * Name: Lyrica Yoshida
+ * ID: 300923951
  * Date July 25, 2017
  * Description: This is the GiantPlanet class
  * Version: 0.3 - Fixed the summary description

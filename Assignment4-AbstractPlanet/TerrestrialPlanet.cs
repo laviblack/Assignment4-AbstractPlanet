@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 /*
  * Name: Lyrica Yoshida
+ * ID: 300923951
  * Date July 25, 2017
  * Description: This is the TerrestrialPlanet class
  * Version: 0.2 - Added the summary description
