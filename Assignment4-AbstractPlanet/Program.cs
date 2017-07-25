@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * ID: 300923951
  * Date July 25, 2017
  * Description: Assignment4
- * Version: 0.3 - Implemented the TerrestrialPlanet class
+ * Version: 0.4 - Added and implemented the WaitForAnyKey method
  */
 
 namespace Assignment4_AbstractPlanet
@@ -22,6 +22,12 @@ namespace Assignment4_AbstractPlanet
             Console.WriteLine(giantPlanet.ToString());
             TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Mercury", 4879, 3.3011e23, true);
             Console.WriteLine(terrestrialPlanet.ToString());
+            WaitForAnyKey();
+        }
+        static void WaitForAnyKey()
+        {
+            Console.Write("Press any key...");
+            Console.Read();
         }
     }
 }
