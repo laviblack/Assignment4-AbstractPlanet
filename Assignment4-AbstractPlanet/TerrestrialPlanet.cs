@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Lyrica Yoshida
  * Date July 25, 2017
  * Description: This is the TerrestrialPlanet class
- * Version: 0.1 - Created the TerrestrialPlanet class
+ * Version: 0.2 - Added the summary description
  */
 
 namespace Assignment4_AbstractPlanet
@@ -21,6 +21,15 @@ namespace Assignment4_AbstractPlanet
         // PUBLIC PROPERTIES
 
         // CONSTRUCTOR
+
+        /// <summary>
+        /// This is the main constructor for the TerrestrialPlanet class
+        /// It takes four parameters
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        /// <param name="oxygen"></param>
         TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
             :base(name, diameter, mass)
         {

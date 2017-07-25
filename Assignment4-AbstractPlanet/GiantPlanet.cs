@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Lyrica Yoshida
  * Date July 25, 2017
  * Description: This is the GiantPlanet class
- * Version: 0.2 - Fixed the spell
+ * Version: 0.3 - Fixed the summary description
  */
 
 namespace Assignment4_AbstractPlanet
@@ -24,7 +24,7 @@ namespace Assignment4_AbstractPlanet
 
         /// <summary>
         /// This is the main constructor for the GiantPlanet class
-        /// It takes three parameters
+        /// It takes four parameters
         /// </summary>
         /// <param name="name"></param>
         /// <param name="diameter"></param>
