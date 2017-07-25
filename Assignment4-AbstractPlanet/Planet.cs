@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 /*
  * Name: Lyrica Yoshida
  * ID: 300923951
- * Date July 12, 2017
+ * Date July 25, 2017
  * Description: This is the Abstract Planet class
- * Version: 0.1 - Created the Abstract Planet class
+ * Version: 0.2 - Modified the ToString method
  */
 
 namespace Assignment4_AbstractPlanet
@@ -116,7 +116,8 @@ namespace Assignment4_AbstractPlanet
         // PUBLIC METHODS
         public override string ToString()
         {
-            return string.Format("Name: {0} Diameter: {1} Mass: {2}", Name, Diameter, Mass);
+            return string.Format("Name: {0} Diameter: {1}km Mass: {2}kg"
+                , Name, Diameter, Mass);
         }
     }
 }
