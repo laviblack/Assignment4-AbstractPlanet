@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Lyrica Yoshida
  * Date July 25, 2017
  * Description: This is the GiantPlanet class
- * Version: 0.1 - Created the GiantPlanet class
+ * Version: 0.2 - Fixed the spell
  */
 
 namespace Assignment4_AbstractPlanet
@@ -51,7 +51,7 @@ namespace Assignment4_AbstractPlanet
             }
         }
 
-        public bool HasRinags()
+        public bool HasRings()
         {
             if (this.RingCount > 0)
             {
