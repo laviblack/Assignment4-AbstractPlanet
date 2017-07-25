@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * ID: 300923951
  * Date July 25, 2017
  * Description: Assignment4
- * Version: 0.2 - Implemented the GiantPlanet class
+ * Version: 0.3 - Implemented the TerrestrialPlanet class
  */
 
 namespace Assignment4_AbstractPlanet
@@ -20,6 +20,8 @@ namespace Assignment4_AbstractPlanet
         {
             GiantPlanet giantPlanet = new GiantPlanet("Jupiter", 9275, 1.8986e27, "Gas");
             Console.WriteLine(giantPlanet.ToString());
+            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Mercury", 4879, 3.3011e23, true);
+            Console.WriteLine(terrestrialPlanet.ToString());
         }
     }
 }
